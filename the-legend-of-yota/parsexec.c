@@ -4,9 +4,8 @@
 
 bool parseAndExecute(char* input)
 {
-    char* context; // Context pointer for strtok_s
-    char* verb = strtok_s(input, " \n", &context); // Pass the address of context
-    char* noun = strtok_s(NULL, " \n", &context); // Use context in subsequent calls
+    char* verb = strtok(input, " \n");
+    char* noun = strtok(NULL, " \n");
 
     if (verb != NULL)
     {

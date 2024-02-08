@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="parsexec.cpp" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="parsexec.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="parsexec.h" />
