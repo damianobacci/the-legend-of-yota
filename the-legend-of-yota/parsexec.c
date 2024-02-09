@@ -15,7 +15,7 @@ bool parseAndExecute(char* input)
         }
         else if (strcmp(verb, "look") == 0)
         {
-            printf("It's terrible around here, no girls.\n");
+            printf("It's terrible around here\n");
         }
         else if (strcmp(verb, "go") == 0)
         {
