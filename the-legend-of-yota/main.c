@@ -9,7 +9,7 @@ static bool getInput(void)
 }
 int main()
 {
-	printf("Welcome to the Legend of Yota.\nWe are bound to a great adventure.");
+	printf("Welcome to the Legend of Yota.\nWe are bound to a great adventure full of quirky peoples.");
 	while (parseAndExecute(input) && getInput());
 	printf("\nBye!\n");
 	return 0;
