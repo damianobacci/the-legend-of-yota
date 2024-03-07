@@ -21,9 +21,15 @@
     <ClCompile Include="parsexec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="location.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="parsexec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="location.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+#include "location.h"
 
 bool parseAndExecute(char* input)
 {
@@ -15,11 +16,11 @@ bool parseAndExecute(char* input)
         }
         else if (strcmp(verb, "look") == 0)
         {
-            printf("It's terrible around here\n");
+            executeLook(noun);
         }
         else if (strcmp(verb, "go") == 0)
         {
-            printf("It's too stressful to go anywhere.\n");
+            executeGo(noun);
         }
         else
         {
